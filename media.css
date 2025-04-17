@@ -1,0 +1,209 @@
+ @media only screen and (min-width:200px)and (max-width:575px){ 
+    header{
+        flex-direction: column;
+        padding:10px ;
+        align-items: stretch;
+        gap: 15px;
+        position: relative;
+    } 
+    .headerleft{
+        justify-content: center;
+    }
+    .logo{
+        padding: 10px;
+    } 
+    .headeraddress{
+        padding: 10px; 
+    }
+    .headeraddress h3{
+        font-size:15px ;
+        
+        }
+        .searchbox button{
+            padding: 10px;
+              
+        }
+        .Usericon i{
+            display: none;
+         }
+        .headerbtn{
+            position: fixed;
+            bottom:0px ;
+            width: 100%; 
+            margin-left:0px ;
+            background-color: white; 
+            justify-content: center; 
+        }
+        .bannersection{
+            display: none;
+        }
+        .orderbanner{
+            padding: 10px;
+            flex-direction: column;
+        }
+        .categoryitems{
+            flex-basis: 25%;
+        }
+        .productrow{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .productitems{
+            
+             flex-basis: 48%;
+            margin-bottom: 20px;
+        }
+        .productsection{
+            padding: 30px 10px 0px 9px ; 
+        }
+
+        .footermidrow1{
+            padding:  10px ;
+            flex-direction: column;
+        }
+        .footer{
+            padding-top: 0px;
+        }
+         
+        .footer-mid-row1-rigth {
+            flex-basis: 100%;
+            }
+            .categoryiesHesadingrow{
+                padding-top: 0px;  
+            }
+
+            .links2 li {
+                flex-basis:48% ;
+                } 
+                .footermidrow3{
+                    padding : 0px 10px; 
+                    padding-bottom: 25px;
+                }
+                .footerrow{
+                    gap:19px ;
+                    width:100%;
+                    padding : 0px 0px; 
+                    flex-direction: column;
+                }
+
+                .footerrow p{
+                    padding-top:4% ;    
+                }
+                .APPicons{
+                    padding-bottom:4% ; 
+
+                }
+                .sociallinks{
+                    padding-top: 0px;
+                    padding-bottom: 20px;
+                }
+     }
+
+     @media only screen and (min-width: 600px) and (max-width: 1024px){
+        header{
+             flex-direction: column;
+            padding:0px ;
+            align-items: stretch;
+            gap:  9px;
+            position: relative;
+        }
+         
+        .headerbtn{
+            display: none;
+        }
+        .Usericon{
+            width:  45%;
+            flex-direction: row; 
+            display: flex;
+            justify-content: right;
+           margin-top:2px;
+           
+        }
+        .Usericon i{
+            flex-direction: row; 
+            display: flex;
+            height: 52px;
+            width:52px ;
+            border:3px solid black ;
+            background-color: rgb(252, 255, 255);
+            border-radius: 50%;
+            align-items: center;
+            justify-content: center;
+            font-weight: lighter;
+     }
+          
+        .searchbox {
+            flex-direction: row;
+            flex-grow: 0; 
+            margin: 0px 19px 0px 19px  ; 
+        }
+        .bannersection img{  
+            margin-top:6px ;
+        }
+        .categoryitems{
+            flex-basis: 20%;
+        }
+        .headingrow {
+            width:100%; 
+            display: flex;
+            justify-content:space-between;
+            padding : 0px 12px 0px 12px  ;
+        }
+        .productsection{
+             
+            padding: 0px ;
+            
+        }
+        .productrow{
+            display: flex;
+            flex-wrap: wrap;
+            padding : 0px 12px 0px 12px  ;
+            justify-content: space-around;
+        }
+        .productitems{
+            
+            flex-basis: 30%;
+           margin-bottom: 20px;
+            
+       }
+       .footermidrow1{
+        padding:  10px ;
+        flex-direction: column;
+    }
+    .footer-mid-row1-rigth {
+        flex-basis: 100%;
+        }
+        .categoryiesHesadingrow{
+            padding-top: 0px;  
+        }
+        .links2 li {
+            flex-basis:49% ;
+            }
+
+          .footermidrow3{
+         padding : 0px 10px; 
+         padding-bottom: 25px;
+       }
+       .footerrow{
+        gap:19px ;
+        width:100%;
+        padding : 0px 0px; 
+        flex-direction: column;
+    }
+
+    .footerrow p{
+        padding-top:4% ;    
+    }
+    .APPicons{
+        padding-bottom:4% ; 
+
+    }
+    .sociallinks{
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+ 
+     } 
+        
+        
